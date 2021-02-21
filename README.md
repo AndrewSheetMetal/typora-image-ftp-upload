@@ -2,11 +2,11 @@
 Small Node.js script for uploading image from Typora via ftp onto a web server.
 
 ## Why?
-By default typora saves pasted images locally. You can configure it to use relative paths or absolut paths. Both options have their downsides then it comes to changes in. 
-The relative path breaks, as soon as you move a markdown file into another folder. An absolut path breaks if you move your wiki folder or you want to publish the markdown file somethere. 
+By default typora saves pasted images locally. You can configure it to use relative paths or absolute paths. Both options have their downsides then it comes to changes in. 
+The relative path breaks as soon as you move a markdown file into another folder. An absolute path breaks if you move your wiki folder or you want to publish the markdown file somethere. 
 
 To avoid this dependencies to the file system, you can set urls for the images.
-Typora provides some image uploaders out of the box, but it makes you dependend from this image uploader and data privacy is also point.
+Typora provides some image uploaders out of the box, but it makes you dependend to this image uploader and the data privacy of a free service is also an issue.
 
 This script provides a possibility to avoid all the mentioned problems. 
 You can store the images on any web server to which you have ftp access.
